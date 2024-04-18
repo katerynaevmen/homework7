@@ -1,0 +1,26 @@
+footer{
+    background-color: rgb(58, 55, 55);;
+}
+h1{
+    color: aliceblue;
+}
+section button{
+    color: aliceblue;
+    background-color: dodgerblue;
+}
+address a[href="mailto:info@devstudio.com"]
+{
+    color: aliceblue;
+
+}
+address a[href="tel:+38 096 111 11 11"]
+{
+    color: aliceblue;
+}
+address{
+    color: aliceblue;
+}
+.ul{
+    background-color: aliceblue;
+    width: fit-content;
+}
