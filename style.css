@@ -1,7 +1,26 @@
-a[href="https"]
-{
-    color: red;
+footer{
+    background-color: #2F303A ;
 }
-ul+p{
-    font-size: 24px;
+h1{
+    color: aliceblue;
+}
+section button{
+    color: aliceblue;
+    background-color: dodgerblue;
+}
+address a[href="mailto:info@devstudio.com"]
+{
+    color: #FFFFFF60;
+
+}
+address a[href="tel:+38 096 111 11 11"]
+{
+    color: #FFFFFF60;
+}
+address{
+    color: aliceblue;
+}
+.ul{
+    background-color: aliceblue;
+    width: fit-content;
 }
