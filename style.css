@@ -1,3 +1,27 @@
+body{ 
+    font-family: "Roboto", sans-serif; 
+    font-weight: 100; 
+  font-style: normal; 
+} 
+.header_list-item:first-child{ 
+    font-family: "Raleway", sans-serif; 
+    font-weight: 700; 
+    font-size: 26px;
+}
+.header_list-item:nth-child(n+2){
+    font-family: "Roboto", sans-serif; 
+    font-weight: 500;
+    font-size: 14px;
+    color: #000000;
+}
+.footer-link{
+    font-family: "Raleway", sans-serif; 
+    font-weight: 700; 
+    line-height: 2.18%; 
+    font-size: 26px;
+    width: 145px;
+    height: 215px;
+}
 footer{
     background-color: #2F303A ;
 }
