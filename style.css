@@ -17,10 +17,63 @@ body{
 .footer-link{
     font-family: "Raleway", sans-serif; 
     font-weight: 700; 
-    line-height: 2.18%; 
     font-size: 26px;
-    width: 145px;
-    height: 215px;
+}
+.banner-title{
+    font-family: "Roboto", sans-serif; 
+    font-weight: 900;
+    font-size: 44px;
+}
+.banner-button{
+    font-family: "Roboto", sans-serif; 
+    font-weight: 700;
+    font-size: 16px;
+}
+.features_item-title{
+    font-family: "Roboto", sans-serif; 
+    font-weight: 700;
+    font-size: 14px;
+}
+.features_item-paragraph{
+    font-family: "Roboto", sans-serif; 
+    font-weight: 400;
+    font-size: 14px;
+}
+.features_item-paragraph{
+    font-family: "Roboto", sans-serif; 
+    font-weight: 400;
+    font-size: 14px;
+}
+.images-title{
+    font-family: "Roboto", sans-serif; 
+    font-weight: 700;
+    font-size: 36px;
+}
+.team-title{
+    font-family: "Roboto", sans-serif; 
+    font-weight: 700;
+    font-size: 36px;
+}
+.team_item-title{
+    font-family: "Roboto", sans-serif; 
+    font-weight: 500;
+    font-size: 16px;
+}
+.team_item-paragraph{
+    font-family: "Roboto", sans-serif; 
+    font-weight: 400;
+    font-size: 16px;
+    color: #757575;
+}
+.footer_address-link{
+    font-family: "Roboto", sans-serif; 
+    font-weight: 400;
+    font-size: 14px;
+}
+.footer-address{
+    font-family: "Roboto", sans-serif; 
+    font-weight: 400;
+    font-size: 14px;
 }
 footer{
     background-color: #2F303A ;
