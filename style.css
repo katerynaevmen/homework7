@@ -7,73 +7,76 @@ body{
     font-family: "Raleway", sans-serif; 
     font-weight: 700; 
     font-size: 26px;
+    line-height: 117.3%;
 }
 .header_list-item:nth-child(n+2){
-    font-family: "Roboto", sans-serif; 
     font-weight: 500;
     font-size: 14px;
     color: #212121;
+    line-height: 117.2%;
 }
 .footer-link{
     font-family: "Raleway", sans-serif; 
     font-weight: 700; 
     font-size: 26px;
+    line-height: 117.3%;
 }
 .banner-title{
-    font-family: "Roboto", sans-serif; 
     font-weight: 900;
     font-size: 44px;
+    line-height: 136.3%;
 }
 .banner-button{
-    font-family: "Roboto", sans-serif; 
     font-weight: 700;
     font-size: 16px;
+    line-height: 187.5%;
 }
 .features_item-title{
     font-family: "Roboto", sans-serif; 
     font-weight: 700;
     font-size: 14px;
+    line-height: 117.2%;
 }
 .features_item-paragraph{
-    font-family: "Roboto", sans-serif; 
     font-weight: 400;
     font-size: 14px;
+    line-height: 171.4%;
 }
 .features_item-paragraph{
-    font-family: "Roboto", sans-serif; 
     font-weight: 400;
     font-size: 14px;
+    line-height: 117.1%;
 }
 .images-title{
-    font-family: "Roboto", sans-serif; 
     font-weight: 700;
     font-size: 36px;
+    line-height: 117.3%;
 }
 .team-title{
-    font-family: "Roboto", sans-serif; 
     font-weight: 700;
     font-size: 36px;
+    line-height: 117.3%;
 }
 .team_item-title{
-    font-family: "Roboto", sans-serif; 
     font-weight: 500;
     font-size: 16px;
+    line-height: 117.1%;
 }
 .team_item-paragraph{
-    font-family: "Roboto", sans-serif; 
     font-weight: 400;
     font-size: 16px;
     color: #757575;
+    line-height: 117.1%;
 }
-.footer_address-link{
-    font-family: "Roboto", sans-serif; 
+.footer_address-link{ 
     font-weight: 400;
     font-size: 14px;
+    line-height: 171.4%;
 }
-.footer-address{
-    font-family: "Roboto", sans-serif; 
+.footer-address{ 
     font-weight: 400;
     font-size: 14px;
+    line-height: 171.4%;
 }
 footer{
     background-color: #2F303A ;
