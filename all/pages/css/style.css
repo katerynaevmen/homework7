@@ -1,0 +1,37 @@
+:root { 
+    --header-logo: #2196F3; 
+    --accent-color: #212121; 
+    --logo-color: #000; 
+    --aditional-color: #757575; 
+    --footer-background: #2F303A; 
+    --footer-number: rgba(255, 255, 255, 0.60); 
+    --main-background: #FFF; 
+    --team-background: #F5F4FA; 
+    --title-color: #212121; 
+    }
+body{ 
+    font-family: "Roboto", sans-serif; 
+    font-weight: 100; 
+  font-style: normal; 
+} 
+.header-logo{ 
+    font-family: "Raleway", sans-serif; 
+    font-weight: 700; 
+    font-size: 26px;
+    line-height: 117.3%;
+}
+.nav-item{
+    font-weight: 500;
+    font-size: 14px;
+    color: #212121;
+    line-height: 117.2%;
+}
+.header-item{
+    font-weight: 500;
+    font-size: 14px;
+    color: #212121;
+    line-height: 117.2%;
+}
+.advantages-title{
+    
+}
