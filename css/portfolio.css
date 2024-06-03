@@ -41,6 +41,9 @@ letter-spacing: 0.28px;
 .nav-link:focus {
     color: var(--header-logo);
 }
+.header-link:hover {
+    color: var(--header-logo);
+}
 .header-link {
     color: var(--aditional-color);
 font-size: 14px;
@@ -58,6 +61,7 @@ letter-spacing: 0.48px;
 }
 .filters-button:hover {
     background-color: var(--header-logo);
+    color: var(--main-background)
 }
 .portfolio-img {
     width: 370px;
@@ -80,7 +84,7 @@ letter-spacing: 0.48px;
     background-color: var(--footer-background);
 }
 .footer-logo {
-    color: var(--logo-color);
+    color: var(--main-background);
     font-family: Raleway;
 font-size: 26px;
 font-weight: 700;
