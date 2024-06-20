@@ -27,6 +27,8 @@ ul {
         margin-right: auto;
         padding-left: 15px;
         padding-right: 15px;
+        outline: 1px solid red;
+        box-sizing: content-box;
     }
 
     .header {
@@ -42,14 +44,6 @@ ul {
     .footer {
         padding-top: 60px;
     padding-bottom: 60px;
-    }
-
-    button {
-        overflow: auto;
-        padding-top: 6px;
-        padding-right: 25px;
-        padding-bottom: 6px;
-        padding-left: 25px;
     }
 
 body{
@@ -103,6 +97,10 @@ letter-spacing: 0.28px;
     color: var(--header-logo);
 }
 
+.active {
+    color: var(--header-logo);
+}
+
 .header-list {
     display: flex;
     gap: 50px;
@@ -122,6 +120,10 @@ letter-spacing: 0.28px;
 
 /* filters */
 
+.filters {
+    /* box-sizing: content-box; */
+}
+
 .filters-list {
     display: flex;
     justify-content: center;
@@ -136,6 +138,9 @@ font-size: 16px;
 font-weight: 500;
 line-height: 1.62; /* 162.5% */
 letter-spacing: 0.48px;
+border-radius: 4px;
+padding: 6px 22px;
+border:transparent;
 }
 
 .filters-button:hover {
@@ -146,11 +151,12 @@ letter-spacing: 0.48px;
 .portfolio-list {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    gap: 30px;
+    /* justify-content: space-between; */
 }
 
 .portfolio-item {
-    border: 1px solid #EEE;
+    /* border: 1px solid #EEE; */
     /* padding-top: 20px;
     padding-right: 24px;
     padding-bottom: 54px;
@@ -160,7 +166,10 @@ letter-spacing: 0.48px;
 
 .portfolio-img {
     width: 370px;
-height: 294px;
+}
+
+.portfolio-box {
+    padding: 20px 24px ;
 }
 
 .portfolio-title {
@@ -169,9 +178,6 @@ height: 294px;
 font-weight: 700;
 line-height: 2; /* 200% */
 letter-spacing: 1.08px;
-padding-top: 20px ;
-padding-right: 24px;
-padding-left: 24px;
 }
 
 .portfolio-paragraph {
@@ -180,9 +186,6 @@ padding-left: 24px;
 font-weight: 400;
 line-height: 1.87; /* 187.5% */
 letter-spacing: 0.48px;
-padding-right: 24px;
-padding-left: 24px;
-padding-bottom: 20px;
 }
 
 /* footer */
@@ -226,6 +229,15 @@ letter-spacing: 0.42px;
 margin-top: 20px;
 margin-bottom: 9px;
 }
+
+.footer-item {
+    margin-bottom: 9px;
+}
+
+.footer-item:last-child {
+    margin-bottom: 0;
+}
+
 
 .footer-link {
     color: var(--main-background);

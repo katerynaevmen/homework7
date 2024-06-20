@@ -62,14 +62,6 @@ img {
     padding-bottom: 51px;
 }
 
-button {
-    overflow: auto;
-    padding-top: 10px;
-    padding-right: 32px;
-    padding-bottom: 10px;
-    padding-left: 32px;
-}
-
 body { 
     font-family: "Roboto", sans-serif; 
     font-weight: 100; 
@@ -113,6 +105,10 @@ font-size: 14px;
 font-weight: 500;
 line-height: 1.14;
 letter-spacing: 0.28px;
+}
+
+.active {
+    color: var(--header-logo);
 }
 
 .nav-link:hover,
@@ -168,6 +164,8 @@ font-weight: 700;
 line-height: 1.87; /* 187.5% */
 letter-spacing: 0.96px;
 background-color: var(--header-logo);
+padding: 10px 32px;
+border-radius: 4px;
 }
 
 /* features */
@@ -230,6 +228,7 @@ height: 294px;
 
 .team-item {
     background-color: var(--main-background);
+    border-radius: 0px 0px 4px 4px;
 }
 
 .team-title {
@@ -305,12 +304,18 @@ margin-top: 20px;
 margin-bottom: 9px;
 }
 
+.footer-item {
+    margin-bottom: 9px;
+}
+
+.footer-item:last-child {
+    margin-bottom: 0;
+}
+
 .footer-link {
     color: var(--footer-number);
 font-size: 14px;
 font-weight: 400;
 line-height: 1.71; /* 171.429% */
 letter-spacing: 0.42px;
-display: inline-block;
-padding-bottom: 9px;
 }
