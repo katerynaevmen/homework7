@@ -155,11 +155,6 @@ border:transparent;
 }
 
 .portfolio-item {
-    /* border: 1px solid #EEE; */
-    /* padding-top: 20px;
-    padding-right: 24px;
-    padding-bottom: 54px;
-    padding-left: 20px; */
     margin-bottom: 30px;
 }
 
@@ -177,6 +172,7 @@ border:transparent;
 font-weight: 700;
 line-height: 2; /* 200% */
 letter-spacing: 1.08px;
+margin-bottom: 4px;
 }
 
 .portfolio-paragraph {
@@ -198,21 +194,13 @@ letter-spacing: 0.48px;
     font-family: Raleway;
 font-size: 26px;
 font-weight: 700;
-line-height: normal;
-letter-spacing: 0.78px;
-}
-
-.footer-span {
-    font-family: Raleway;
-font-size: 26px;
-font-weight: 700;
 line-height: 1.38;
 letter-spacing: 0.78px;
 }
 
 .footer-span {
     color: var(--header-logo);
-font-family: Raleway;
+    font-family: Raleway;
 font-size: 26px;
 font-weight: 700;
 line-height: 1.38;
@@ -221,7 +209,7 @@ letter-spacing: 0.78px;
 
 .footer-address {
     color: var(--main-background);
-    font-size: 14px;
+font-size: 14px;
 font-weight: 400;
 line-height: 1.71; /* 171.429% */
 letter-spacing: 0.42px;
@@ -237,15 +225,10 @@ margin-bottom: 9px;
     margin-bottom: 0;
 }
 
-
 .footer-link {
-    color: var(--main-background);
-    opacity: 60%;
-    font-size: 14px;
-font-style: normal;
+    color: var(--footer-number);
+font-size: 14px;
 font-weight: 400;
 line-height: 1.71; /* 171.429% */
 letter-spacing: 0.42px;
-display: inline-block;
-padding-bottom: 9px;
 }
