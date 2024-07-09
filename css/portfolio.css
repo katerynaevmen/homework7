@@ -158,10 +158,12 @@ border:transparent;
 
 .portfolio-item {
     background: #FFF;
+    flex-basis: calc((100%-60px) / 3);
 }
 
 .portfolio-img {
     width: 370px;
+    width: 100%;
 }
 
 .portfolio-box {
