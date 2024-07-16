@@ -170,6 +170,38 @@ border-radius: 4px;
 
 /* features */
 
+.features-item:first-child::before {
+    content: '';
+    display: inline-block;
+    height: 120px;
+    width: 270px;
+    background-image: url(../img/Group\ 1.jpg);
+}
+
+.features-item:nth-child(2)::before {
+    content: '';
+    display: inline-block;
+    height: 120px;
+    width: 270px;
+    background-image: url(../img/Group\ 2.png);
+}
+
+.features-item:nth-child(3)::before {
+    content: '';
+    display: inline-block;
+    height: 120px;
+    width: 270px;
+    background-image: url(../img/Group\ 3.png);
+}
+
+.features-item:nth-child(4)::before {
+    content: '';
+    display: inline-block;
+    height: 120px;
+    width: 270px;
+    background-image: url(../img/Group\ 4.png);
+}
+
 .features-list {
     display: flex;
     gap: 30px;
@@ -182,6 +214,7 @@ font-weight: 700;
 line-height: 1.14;
 letter-spacing: 0.42px;
 text-transform: uppercase;
+margin-top: 30px;
 margin-bottom: 10px;
 }
 
