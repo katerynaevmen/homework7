@@ -140,6 +140,10 @@ letter-spacing: 0.28px;
 .advantages {
     background-color: var(--footer-background);
     text-align: center;
+    background-image: url(../img/advbackground.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgba(47, 48, 58, 0.40) ;
 }
 
 .advantages-title {
@@ -165,8 +169,9 @@ line-height: 1.87; /* 187.5% */
 letter-spacing: 0.96px;
 background-color: var(--header-logo);
 padding: 10px 32px;
-border-radius: 4px;
 box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+border: none;
+border-radius: 4px;
 }
 
 /* features */
@@ -176,7 +181,7 @@ box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
     display: inline-block;
     height: 120px;
     width: 270px;
-    background-image: url(../img/Group\ 1.jpg);
+    background-image: url(../img/groupone.jpg);
 }
 
 .features-item:nth-child(2)::before {
@@ -184,7 +189,7 @@ box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
     display: inline-block;
     height: 120px;
     width: 270px;
-    background-image: url(../img/Group\ 2.png);
+    background-image: url(../img/grouptwo.png);
 }
 
 .features-item:nth-child(3)::before {
@@ -192,7 +197,7 @@ box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
     display: inline-block;
     height: 120px;
     width: 270px;
-    background-image: url(../img/Group\ 3.png);
+    background-image: url(../img/grouptree.png);
 }
 
 .features-item:nth-child(4)::before {
@@ -200,7 +205,7 @@ box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
     display: inline-block;
     height: 120px;
     width: 270px;
-    background-image: url(../img/Group\ 4.png);
+    background-image: url(../img/groupfour.png);
 }
 
 .features-list {
@@ -267,6 +272,7 @@ width: 100%;
     background-color: var(--main-background);
     border-radius: 0px 0px 4px 4px;
     flex-basis: calc((100%-60px) / 3);
+    box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.12), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 2px 1px 0px rgba(0, 0, 0, 0.20);
 }
 
 .team-title {
