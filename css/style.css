@@ -138,12 +138,11 @@ letter-spacing: 0.28px;
 /* advantages */
 
 .advantages {
-    background-color: var(--footer-background);
     text-align: center;
-    background-image: url(../img/advbackground.jpg);
+    background-image:linear-gradient( rgba(47, 48, 58, 0.40),  rgba(47, 48, 58, 0.40)), url(../img/advbackground.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    background-color: rgba(47, 48, 58, 0.40) ;
+    background-position: center;
 }
 
 .advantages-title {
