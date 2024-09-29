@@ -109,6 +109,13 @@ letter-spacing: 0.28px;
 .header-list {
     display: flex;
     gap: 50px;
+    margin-left: auto;
+}
+
+.header-item:hover {
+    .header-svg {
+        fill: #2196F3;
+    }
 }
 
 .header-link:hover {
@@ -121,6 +128,12 @@ font-size: 14px;
 font-weight: 500;
 line-height: 1.14;
 letter-spacing: 0.28px;
+}
+
+.header-svg {
+    width: 16px;
+height: 12px;
+fill: #757575;
 }
 
 /* filters */
@@ -248,4 +261,47 @@ font-size: 14px;
 font-weight: 400;
 line-height: 1.71; /* 171.429% */
 letter-spacing: 0.42px;
+}
+
+.footersvg {
+    display: flex;
+    gap: 10px;
+    justify-content: flex-end;
+}
+
+.footersvg-title{
+color: #FFF;
+font-family: Roboto;
+font-size: 14px;
+font-style: normal;
+font-weight: 700;
+line-height: 1.14;
+letter-spacing: 0.42px;
+}
+
+.footersvg-list {
+    display: flex;
+    gap: 10px;
+}
+
+.footersvg-item:hover {
+    .footersvg-link {
+        background-color: #2196F3;
+    }
+}
+
+.footersvg-link {
+    background-color: #FFFFFF1A;
+    border-radius: 50%;
+    width: 44px;
+height: 44px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.footersvg-svg {
+    width: 20px;
+    height: 20px;
+    fill: #FFF;
 }
