@@ -128,12 +128,18 @@ font-size: 14px;
 font-weight: 500;
 line-height: 1.14;
 letter-spacing: 0.28px;
+display: flex;
+align-items: center;
+gap: 10px;
 }
 
 .header-svg {
-    width: 16px;
-height: 12px;
 fill: #757575;
+}
+
+.header-svg:nth-child(1) {
+    width: 16px;
+    height: 16px;
 }
 
 /* filters */
@@ -214,6 +220,12 @@ letter-spacing: 0.48px;
 
 /* footer */
 
+.footer-box {
+    display:flex;
+    justify-content: flex-start;
+    gap: 70px;
+}
+
 .footer {
     background-color: var(--footer-background);
 }
@@ -277,6 +289,7 @@ font-style: normal;
 font-weight: 700;
 line-height: 1.14;
 letter-spacing: 0.42px;
+margin-bottom: 20px;
 }
 
 .footersvg-list {

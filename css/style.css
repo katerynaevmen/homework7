@@ -139,6 +139,9 @@ font-size: 14px;
 font-weight: 500;
 line-height: 1.14;
 letter-spacing: 0.28px;
+display: flex;
+align-items: center;
+gap: 10px;
 }
 
 .header-link:hover,
@@ -147,9 +150,12 @@ letter-spacing: 0.28px;
 }
 
 .header-svg {
-    width: 16px;
-height: 12px;
 fill: #757575;
+}
+
+.header-svg:nth-child(1) {
+    width: 16px;
+    height: 16px;
 }
 
 /* advantages */
@@ -334,7 +340,7 @@ margin-bottom: 28px;
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 20px;
+    gap: 10px;
 }
 
 .team-svgitem:hover {
@@ -380,10 +386,14 @@ margin-bottom: 50px;
     gap: 30px;
 }
 
-.regularclients-item {
-    padding: 16px 32px 16px 32px;
+.regularclients-link {
     border-radius: 1px;
-    border: solid #AFB1B8;
+    border: 1px solid #AFB1B8;
+width: 170px;
+height: 92px;
+display: flex;
+justify-content: center;
+align-items: center;
 }
 
 .regularclients-item:hover ,
@@ -391,7 +401,9 @@ margin-bottom: 50px;
     .regularclients-svg {
         fill: #2196F3;
     }
+    .regularclients-link {
     border-color: #2196F3;
+    }
 }
 
 .regularclients-svg {
@@ -401,6 +413,12 @@ fill: #AFB1B8;
 }
 
 /* footer */
+
+.footer-box {
+    display:flex;
+    justify-content: flex-start;
+    gap: 70px;
+}
 
 .footer {
     background-color: var(--footer-background);
@@ -451,12 +469,6 @@ line-height: 1.71; /* 171.429% */
 letter-spacing: 0.42px;
 }
 
-.footersvg {
-    display: flex;
-    gap: 10px;
-    justify-content: flex-end;
-}
-
 .footersvg-title{
 color: #FFF;
 font-family: Roboto;
@@ -465,6 +477,7 @@ font-style: normal;
 font-weight: 700;
 line-height: 1.14;
 letter-spacing: 0.42px;
+margin-bottom: 20px;
 }
 
 .footersvg-list {
