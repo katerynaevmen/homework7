@@ -86,7 +86,6 @@ body{
 .nav-list {
     display: flex;
     gap: 50px;
-    margin-right: 344px;
 }
 
 .nav-link {
@@ -115,6 +114,12 @@ letter-spacing: 0.28px;
 .header-item:hover {
     .header-svg {
         fill: #2196F3;
+    }
+}
+
+.header-link:focus {
+    .header-svg {
+       fill: #2196F3;
     }
 }
 
@@ -224,6 +229,7 @@ letter-spacing: 0.48px;
     display:flex;
     justify-content: flex-start;
     gap: 70px;
+    align-items: baseline;
 }
 
 .footer {
@@ -301,6 +307,10 @@ margin-bottom: 20px;
     .footersvg-link {
         background-color: #2196F3;
     }
+}
+
+.footersvg-link:focus {
+    background-color: #2196F3;
 }
 
 .footersvg-link {
