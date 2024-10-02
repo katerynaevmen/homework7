@@ -285,6 +285,20 @@ margin-bottom: 50px;
 width: 100%;
 }
 
+.work-text {
+    color: var(--main-background);
+text-align: center;
+font-family: Roboto;
+font-size: 14px;
+font-weight: 700;
+line-height: 1.14;
+letter-spacing: 0.42px;
+background-color: rgba(47, 48, 58, 0.80);
+position: relative;
+bottom: 19%;
+padding: 27px 95px 27px 95px;
+}
+
 /* team */
 
 .team-list {
@@ -421,10 +435,6 @@ align-items: center;
     border-color: #2196F3;
     }
 }
-
-/* .regularclients-link:focus {
-    border-color: #2196F3;
-    } */
 
 .regularclients-link:focus {
     .regularclients-svg {
