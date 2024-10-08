@@ -560,6 +560,7 @@ font-size: 14px;
 font-weight: 700;
 line-height: normal;
 letter-spacing: 0.42px;
+margin-bottom: 10px;
 }
 
 .subscribe-box {
@@ -575,9 +576,9 @@ letter-spacing: 0.42px;
 border: 1px solid rgba(255, 255, 255, 0.30);
 background: rgba(33, 150, 243, 0.00);
 box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
-display: block;
-margin-top: 20px;
 margin-right: 12px;
+padding-left: 16px;
+padding-right: 30px;
 }
 
 .subscribe-span {
