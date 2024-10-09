@@ -459,12 +459,15 @@ fill: #AFB1B8;
 .footer-box {
     display:flex;
     justify-content: flex-start;
-    gap: 70px;
     align-items: baseline;
 }
 
 .footer {
     background-color: var(--footer-background);
+}
+
+.footer-list { 
+    margin-right: 70px;
 }
 
 .footer-logo {
@@ -510,6 +513,10 @@ font-size: 14px;
 font-weight: 400;
 line-height: 1.71; /* 171.429% */
 letter-spacing: 0.42px;
+}
+
+.footer-svg {
+    margin-right: 70px;
 }
 
 .footersvg-title{
@@ -654,6 +661,7 @@ margin-bottom: 12px;
 
 .input-box {
     position: relative;
+    margin-bottom: 10px;
 }
 
 .modal-input {
@@ -679,11 +687,12 @@ padding-right: 40px;
 }
 
 .input-icon {
-    width: 12px;
-height: 12px;
+    width: 18px;
+height: 18px;
 position: absolute;
-top: 15px;
+top: 12px;
 left: 12px;
+fill: #212121;
 }
 
 .modal-textarea {
@@ -756,7 +765,6 @@ margin-top: 30px;
 }
 
 .button-close {
-    padding: 6px;
     border-radius: 50%;
     border: none;
     outline: 1px solid rgba(0, 0, 0, 0.10);
@@ -767,11 +775,15 @@ margin-top: 30px;
     position: absolute;
     right: 10px;
     top: 10px;
+    width: 30px;
+    height: 30px;
 }
 
 .button-close:hover,
 .button-close:focus {
+    .button-svg {
     fill: #2196F3;
+    }
     border: none;
     outline: 1px solid rgba(0, 0, 0, 0.10);
 }
@@ -779,4 +791,5 @@ margin-top: 30px;
 .button-svg {
     width: 18px;
     height: 18px;
+    fill: #212121;
 }
