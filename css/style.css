@@ -114,6 +114,14 @@ font-size: 14px;
 font-weight: 500;
 line-height: 1.14;
 letter-spacing: 0.28px;
+transition-property: color;
+transition-duration: 250ms;
+transition-timing-function:  cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.nav-link:hover,
+.nav-link:focus {
+    color: var(--header-logo);
 }
 
 .active:hover::after {
@@ -128,11 +136,6 @@ letter-spacing: 0.28px;
 }
 
 .active {
-    color: var(--header-logo);
-}
-
-.nav-link:hover,
-.nav-link:focus {
     color: var(--header-logo);
 }
 
@@ -163,6 +166,9 @@ letter-spacing: 0.28px;
 display: flex;
 align-items: center;
 gap: 10px;
+transition-property: color;
+transition-duration: 250ms;
+transition-timing-function:  cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .header-link:hover,
@@ -172,6 +178,9 @@ gap: 10px;
 
 .header-svg {
 fill: #757575;
+transition-property: fill;
+transition-duration: 250ms;
+transition-timing-function:  cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .header-svg:nth-child(1) {
@@ -408,12 +417,18 @@ margin-bottom: 16px;
     display: flex;
     justify-content: center;
     align-items: center;
+    transition-property: background-color;
+transition-duration: 250ms;
+transition-timing-function:  cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .team-svg {
     width: 20px;
     height: 20px;
     fill:#AFB1B8;
+    transition-property: fill;
+transition-duration: 250ms;
+transition-timing-function:  cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 /* regularclients */
@@ -442,6 +457,9 @@ height: 92px;
 display: flex;
 justify-content: center;
 align-items: center;
+transition-property: border-color;
+transition-duration: 250ms;
+transition-timing-function:  cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .regularclients-item:hover {
@@ -467,6 +485,9 @@ align-items: center;
     width: 106px;
     height: 60px;
 fill: #AFB1B8;
+transition-property: fill;
+transition-duration: 250ms;
+transition-timing-function:  cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 /* footer */
@@ -557,7 +578,7 @@ margin-bottom: 20px;
 }
 
 .footersvg-link:focus {
-    background-color: #2196F3;
+   background-color: #2196F3;
 }
 
 .footersvg-link {
@@ -568,6 +589,9 @@ height: 44px;
 display: flex;
 justify-content: center;
 align-items: center;
+transition-property: background-color;
+transition-duration: 250ms;
+transition-timing-function:  cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .footersvg-svg {

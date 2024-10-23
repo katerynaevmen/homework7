@@ -110,6 +110,10 @@ font-size: 14px;
 font-weight: 500;
 line-height: 1.14;
 letter-spacing: 0.28px;
+transition-property: color;
+transition-duration: 250ms;
+transition-timing-function:  cubic-bezier(0.4, 0, 0.2, 1);
+
 }
 
 .nav-link:hover,
@@ -153,10 +157,16 @@ letter-spacing: 0.28px;
 display: flex;
 align-items: center;
 gap: 10px;
+transition-property: color;
+transition-duration: 250ms;
+transition-timing-function:  cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .header-svg {
 fill: #757575;
+transition-property: fill;
+transition-duration: 250ms;
+transition-timing-function:  cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .header-svg:nth-child(1) {
@@ -183,6 +193,9 @@ letter-spacing: 0.48px;
 border-radius: 4px;
 padding: 6px 22px;
 border:transparent;
+transition-property: color, background-color, box-shadow;
+transition-duration: 250ms;
+transition-timing-function:  cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .filters-button:hover ,
@@ -204,6 +217,9 @@ border:transparent;
 .portfolio-item {
     background: #FFF;
     flex-basis: calc((100%-60px) / 3);
+    transition-property: box-shadow;
+transition-duration: 250ms;
+transition-timing-function:  cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .portfolio-item:hover {
@@ -239,6 +255,9 @@ letter-spacing: 0.54px;
     left: 0;
     opacity: 0;
     padding: 63px 24px;
+    transition-property: opacity;
+transition-duration: 250ms;
+transition-timing-function:  cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .portfolio-box {
@@ -361,6 +380,9 @@ height: 44px;
 display: flex;
 justify-content: center;
 align-items: center;
+transition-property: background-color;
+transition-duration: 250ms;
+transition-timing-function:  cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .footersvg-svg {
