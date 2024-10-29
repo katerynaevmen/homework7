@@ -666,6 +666,9 @@ height: 24px;
     justify-content: center;
     align-items: center;
     opacity: 1;
+    transition: opacity 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
 }
 
 .is-hidden {
@@ -673,10 +676,15 @@ height: 24px;
     pointer-events: none;
 }
 
+.is-hidden .modal {
+    transform: translateY(1000px);
+}
+
 .modal {
     padding: 40px;
     background-color: #FFF;
 position: relative;
+transition: transform 0.5s;
 }
 
 .modal-title {
