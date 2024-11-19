@@ -1,0 +1,157 @@
+.footer-box {
+    display:flex;
+    justify-content: flex-start;
+    align-items: baseline;
+}
+
+.footer {
+    background-color: var(--footer-background);
+}
+
+.footer-list { 
+    margin-right: 70px;
+}
+
+.footer-logo {
+    color: var(--main-background);
+    font-family: Raleway;
+font-size: 26px;
+font-weight: 700;
+line-height: 1.38;
+letter-spacing: 0.78px;
+}
+
+.footer-span {
+    color: var(--header-logo);
+    font-family: Raleway;
+font-size: 26px;
+font-weight: 700;
+line-height: 1.38;
+letter-spacing: 0.78px;
+}
+
+.footer-address {
+    color: var(--main-background);
+font-size: 14px;
+font-weight: 400;
+line-height: 1.71; /* 171.429% */
+letter-spacing: 0.42px;
+margin-top: 20px;
+margin-bottom: 9px;
+font-style: normal;
+}
+
+.footer-item {
+    margin-bottom: 9px;
+}
+
+.footer-item:last-child {
+    margin-bottom: 0;
+}
+
+.footer-link {
+    color: var(--footer-number);
+font-size: 14px;
+font-weight: 400;
+line-height: 1.71; /* 171.429% */
+letter-spacing: 0.42px;
+}
+
+.footer-svg {
+    margin-right: 70px;
+}
+
+.footersvg-title{
+color: #FFF;
+font-family: Roboto;
+font-size: 14px;
+font-style: normal;
+font-weight: 700;
+line-height: 1.14;
+letter-spacing: 0.42px;
+margin-bottom: 20px;
+}
+
+.footersvg-list {
+    display: flex;
+    gap: 10px;
+}
+
+.footersvg-item:hover {
+    .footersvg-link {
+        background-color: #2196F3;
+    }
+}
+
+.footersvg-link:focus {
+    background-color: #2196F3;
+}
+
+.footersvg-link {
+    background-color: #FFFFFF1A;
+    border-radius: 50%;
+    width: 44px;
+height: 44px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.footersvg-svg {
+    width: 20px;
+    height: 20px;
+    fill: #FFF;
+}
+
+.subscribe-title {
+    color: #FFF;
+font-size: 14px;
+font-weight: 700;
+line-height: normal;
+letter-spacing: 0.42px;
+margin-bottom: 10px;
+}
+
+.subscribe-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.subscribe-input {
+    width: 358px;
+    height: 50px;
+    border-radius: 4px;
+border: 1px solid rgba(255, 255, 255, 0.30);
+background: rgba(33, 150, 243, 0.00);
+box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+margin-right: 12px;
+padding-left: 16px;
+padding-right: 28px;
+color: #FFF;
+}
+
+.subscribe-span {
+    color: #FFF;
+text-align: center;
+font-size: 16px;
+font-weight: 700;
+line-height: 1.87;
+letter-spacing: 0.96px;
+margin-right: 10px;
+}
+
+.subscribe-button {
+    border-radius: 4px;
+background: #2196F3;
+box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+padding: 10px 28px;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.subscribe-svg {
+    width: 24px;
+height: 24px;
+}

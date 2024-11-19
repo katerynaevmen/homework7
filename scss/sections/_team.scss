@@ -1,0 +1,97 @@
+.team-list {
+    display: flex;
+    gap: 30px;
+}
+
+.team {
+    background-color: var(--team-background);
+}
+
+.team-item {
+    background-color: var(--main-background);
+    border-radius: 0px 0px 4px 4px;
+    flex-basis: calc((100%-60px) / 3);
+    box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.12), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 2px 1px 0px rgba(0, 0, 0, 0.20);
+}
+
+.team-title {
+    color: var(--accent-color);
+    text-align: center;
+font-size: 36px;
+font-weight: 700;
+line-height: 1.16;
+letter-spacing: 1.08px;
+margin-bottom: 50px;
+}
+
+.team-img {
+    width: 100%;
+}
+
+.team-box {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.team-caption {
+    color: var(--accent-color);
+text-align: center;
+font-size: 16px;
+font-weight: 500;
+line-height: 1.18;
+letter-spacing: 0.48px;
+margin-bottom: 10px;
+}
+
+.team-paragraph {
+    color: var(--aditional-color);
+    text-align: center;
+font-size: 16px;
+font-weight: 400;
+line-height: 1.18;
+letter-spacing: 0.48px;
+margin-bottom: 16px;
+}
+
+.team-svglist {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.team-svgitem:hover {
+.team-svglink {
+    background-color: #2196F3;
+}
+.team-svg {
+    fill: #FFF;
+} 
+}
+
+.team-svglink:focus {
+        background-color: #2196F3;
+}
+
+.team-svglink:focus {
+    .team-svg {
+        fill: #FFF;
+    }
+}
+
+
+.team-svglink {
+    background-color: #FFF;
+    border-radius: 50%;
+    width: 44px;
+    height: 44px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.team-svg {
+    width: 20px;
+    height: 20px;
+    fill:#AFB1B8;
+}

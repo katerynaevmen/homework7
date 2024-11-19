@@ -114,6 +114,9 @@ font-size: 14px;
 font-weight: 500;
 line-height: 1.14;
 letter-spacing: 0.28px;
+transition-property: color;
+transition-duration: 250ms;
+transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .active:hover::after {
@@ -129,6 +132,7 @@ letter-spacing: 0.28px;
 
 .active {
     color: var(--header-logo);
+    transition-property: background-color;
 }
 
 .nav-link:hover,
@@ -163,6 +167,9 @@ letter-spacing: 0.28px;
 display: flex;
 align-items: center;
 gap: 10px;
+transition-property: color;
+transition-duration: 250ms;
+transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .header-link:hover,
