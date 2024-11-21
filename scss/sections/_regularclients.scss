@@ -1,55 +1,55 @@
 .regularclients {
     padding-top: 94px;
     padding-bottom: 94px;
-}
 
-.regularclients-title {
-    color: #212121;
-text-align: center;
-font-family: Roboto;
-font-size: 36px;
-font-weight: 700;
-line-height: 1.16;
-letter-spacing: 1.08px;
-margin-bottom: 50px;
-}
+    &__title {
+        color: #212121;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.16;
+    letter-spacing: 1.08px;
+    margin-bottom: 50px;
+    }
 
-.regularclients-list {
+    &__list {
+        display: flex;
+        gap: 30px;
+    }
+
+    &__item:hover {
+        .regularclients__svg {
+            fill: #2196F3;
+        }
+        .regularclients__link {
+        border-color: #2196F3;
+        }
+    }
+
+    &__link {
+        border-radius: 4px;
+        border: 1px solid #AFB1B8;
+    width: 170px;
+    height: 92px;
     display: flex;
-    gap: 30px;
-}
+    justify-content: center;
+    align-items: center;
 
-.regularclients-link {
-    border-radius: 4px;
-    border: 1px solid #AFB1B8;
-width: 170px;
-height: 92px;
-display: flex;
-justify-content: center;
-align-items: center;
-}
-
-.regularclients-item:hover {
-    .regularclients-svg {
-        fill: #2196F3;
+    &:focus {
+        .regularclients__svg {
+            fill: #2196F3;
+        }
     }
-    .regularclients-link {
-    border-color: #2196F3;
+
+    &:focus {
+        border-color: #2196F3;
     }
-}
-
-.regularclients-link:focus {
-    .regularclients-svg {
-        fill: #2196F3;
     }
-}
 
-.regularclients-link:focus {
-    border-color: #2196F3;
-}
-
-.regularclients-svg {
-    width: 106px;
-    height: 60px;
-fill: #AFB1B8;
+    &__svg {
+        width: 106px;
+        height: 60px;
+    fill: #AFB1B8;
+    }
 }

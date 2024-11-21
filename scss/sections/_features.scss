@@ -1,59 +1,65 @@
 .features {
     padding-top: 94px;
+
+    &__list {
+        display: flex;
+        gap: 30px;
+    }
+
+    &__item {
+        &:first-child::before {
+            content: '';
+            display: inline-block;
+            height: 120px;
+            width: 270px;
+            background-image: url(../img/groupone.jpg);
+        }
+        
+        &:nth-child(2)::before {
+            content: '';
+            display: inline-block;
+            height: 120px;
+            width: 270px;
+            background-image: url(../img/grouptwo.png);
+        }
+        
+        &:nth-child(3)::before {
+            content: '';
+            display: inline-block;
+            height: 120px;
+            width: 270px;
+            background-image: url(../img/grouptree.png);
+        }
+        
+        &:nth-child(4)::before {
+            content: '';
+            display: inline-block;
+            height: 120px;
+            width: 270px;
+            background-image: url(../img/groupfour.png);
+        }
+    }
+
+    &__title {
+        color: $accent-color;
+        font-size: 14px;
+    font-weight: 700;
+    line-height: 1.14;
+    letter-spacing: 0.42px;
+    text-transform: uppercase;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    }
+    
+    &__text {
+        color: $aditional-color;
+        font-size: 14px;
+    font-weight: 400;
+    line-height: 1.71; /* 171.429% */
+    letter-spacing: 0.42px;
+    }
 }
 
-.features-item:first-child::before {
-    content: '';
-    display: inline-block;
-    height: 120px;
-    width: 270px;
-    background-image: url(../img/groupone.jpg);
-}
 
-.features-item:nth-child(2)::before {
-    content: '';
-    display: inline-block;
-    height: 120px;
-    width: 270px;
-    background-image: url(../img/grouptwo.png);
-}
 
-.features-item:nth-child(3)::before {
-    content: '';
-    display: inline-block;
-    height: 120px;
-    width: 270px;
-    background-image: url(../img/grouptree.png);
-}
 
-.features-item:nth-child(4)::before {
-    content: '';
-    display: inline-block;
-    height: 120px;
-    width: 270px;
-    background-image: url(../img/groupfour.png);
-}
-
-.features-list {
-    display: flex;
-    gap: 30px;
-}
-
-.features-title {
-    color: var(--accent-color);
-    font-size: 14px;
-font-weight: 700;
-line-height: 1.14;
-letter-spacing: 0.42px;
-text-transform: uppercase;
-margin-top: 30px;
-margin-bottom: 10px;
-}
-
-.features-text {
-    color: var(--aditional-color);
-    font-size: 14px;
-font-weight: 400;
-line-height: 1.71; /* 171.429% */
-letter-spacing: 0.42px;
-}
