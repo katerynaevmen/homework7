@@ -638,7 +638,7 @@ body {
   opacity: 1;
 }
 
-.is__hidden {
+.is-hidden {
   opacity: 0;
   pointer-events: none;
 }
@@ -664,6 +664,10 @@ body {
   line-height: normal;
   letter-spacing: 0.12px;
 }
+.modal__box {
+  position: relative;
+  margin-bottom: 10px;
+}
 .modal__input {
   width: 448px;
   height: 40px;
@@ -678,8 +682,16 @@ body {
   border: none;
   outline: 1px solid #2196F3;
 }
-.modal__input:hover + .input-icon, .modal__input:focus + .input-icon {
+.modal__input:hover + .modal__icon, .modal__input:focus + .modal__icon {
   fill: #2196F3;
+}
+.modal__icon {
+  width: 18px;
+  height: 18px;
+  position: absolute;
+  top: 12px;
+  left: 12px;
+  fill: #212121;
 }
 .modal__textarea {
   width: 448px;
@@ -743,20 +755,6 @@ body {
   margin-top: 30px;
 }
 
-.input__box {
-  position: relative;
-  margin-bottom: 10px;
-}
-
-.input__icon {
-  width: 18px;
-  height: 18px;
-  position: absolute;
-  top: 12px;
-  left: 12px;
-  fill: #212121;
-}
-
 .button__close {
   border-radius: 50%;
   border: none;
@@ -775,7 +773,7 @@ body {
   border: none;
   outline: 1px solid rgba(0, 0, 0, 0.1);
 }
-.button__close:hover .button-svg, .button__close:focus .button-svg {
+.button__close:hover .button__svg, .button__close:focus .button__svg {
   fill: #2196F3;
 }
 
