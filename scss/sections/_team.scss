@@ -55,9 +55,7 @@ margin-bottom: 16px;
 }
 
 &__svglist {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    @include flexbox($wrap:nowrap);
     gap: 10px;
 }
 
@@ -76,9 +74,7 @@ margin-bottom: 16px;
     border-radius: 50%;
     width: 44px;
     height: 44px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    @include flexbox($wrap:nowrap);
 
     &:hover{
         .team__svg{

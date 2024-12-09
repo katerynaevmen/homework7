@@ -32,9 +32,7 @@
         border: 1px solid #AFB1B8;
     width: 170px;
     height: 92px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    @include flexbox($wrap:nowrap);
 
     &:focus {
         .regularclients__svg {

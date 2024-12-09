@@ -8,34 +8,22 @@
 
     &__item {
         &:first-child::before {
-            content: '';
-            display: inline-block;
-            height: 120px;
-            width: 270px;
+            @extend %featuresitem;
             background-image: url(../img/groupone.jpg);
         }
         
         &:nth-child(2)::before {
-            content: '';
-            display: inline-block;
-            height: 120px;
-            width: 270px;
+            @extend %featuresitem;
             background-image: url(../img/grouptwo.png);
         }
         
         &:nth-child(3)::before {
-            content: '';
-            display: inline-block;
-            height: 120px;
-            width: 270px;
+            @extend %featuresitem;
             background-image: url(../img/grouptree.png);
         }
         
         &:nth-child(4)::before {
-            content: '';
-            display: inline-block;
-            height: 120px;
-            width: 270px;
+            @extend %featuresitem;
             background-image: url(../img/groupfour.png);
         }
     }

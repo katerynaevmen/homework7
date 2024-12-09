@@ -16,6 +16,13 @@ img {
   display: block;
 }
 
+.features__item:nth-child(4)::before, .features__item:nth-child(3)::before, .features__item:nth-child(2)::before, .features__item:first-child::before {
+  content: "";
+  display: inline-block;
+  height: 120px;
+  width: 270px;
+}
+
 .container {
   width: 1200px;
   margin-left: auto;
@@ -37,7 +44,10 @@ body {
 }
 .header__box {
   display: flex;
+  justify-content: flex-start;
   align-items: center;
+  flex-wrap: nowrap;
+  flex-direction: row;
 }
 .header__logo {
   color: #000;
@@ -72,7 +82,10 @@ body {
   line-height: 1.14;
   letter-spacing: 0.28px;
   display: flex;
+  justify-content: flex-start;
   align-items: center;
+  flex-wrap: nowrap;
+  flex-direction: row;
   gap: 10px;
   transition-property: color;
   transition-duration: 250ms;
@@ -171,6 +184,9 @@ body {
 .filters__list {
   display: flex;
   justify-content: center;
+  align-items: stretch;
+  flex-wrap: nowrap;
+  flex-direction: row;
   gap: 8px;
   margin-bottom: 50px;
 }
@@ -184,7 +200,7 @@ body {
   border-radius: 4px;
   padding: 6px 22px;
   border: transparent;
-  transition-property: color, background-color, box-shadow;
+  transition-property: color background-color box-shadow;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -198,7 +214,10 @@ body {
 
 .portfolio__list {
   display: flex;
+  justify-content: flex-start;
+  align-items: stretch;
   flex-wrap: wrap;
+  flex-direction: row;
   gap: 30px;
 }
 .portfolio__item {
@@ -275,31 +294,15 @@ body {
   gap: 30px;
 }
 .features__item:first-child::before {
-  content: "";
-  display: inline-block;
-  height: 120px;
-  width: 270px;
   background-image: url(../img/groupone.jpg);
 }
 .features__item:nth-child(2)::before {
-  content: "";
-  display: inline-block;
-  height: 120px;
-  width: 270px;
   background-image: url(../img/grouptwo.png);
 }
 .features__item:nth-child(3)::before {
-  content: "";
-  display: inline-block;
-  height: 120px;
-  width: 270px;
   background-image: url(../img/grouptree.png);
 }
 .features__item:nth-child(4)::before {
-  content: "";
-  display: inline-block;
-  height: 120px;
-  width: 270px;
   background-image: url(../img/groupfour.png);
 }
 .features__title {
@@ -412,6 +415,8 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-wrap: nowrap;
+  flex-direction: row;
   gap: 10px;
 }
 .team__svgitem:hover .team__svglink {
@@ -425,6 +430,8 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-wrap: nowrap;
+  flex-direction: row;
 }
 .team__svglink:hover .team__svg {
   fill: #FFF;
@@ -473,6 +480,8 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-wrap: nowrap;
+  flex-direction: row;
 }
 .regularclients__link:focus .regularclients__svg {
   fill: #2196F3;
@@ -495,6 +504,8 @@ body {
   display: flex;
   justify-content: flex-start;
   align-items: baseline;
+  flex-wrap: nowrap;
+  flex-direction: row;
 }
 .footer__div {
   margin-right: 93px;
@@ -567,6 +578,8 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-wrap: nowrap;
+  flex-direction: row;
 }
 .footersvg__link:focus {
   background-color: #2196F3;
@@ -587,8 +600,10 @@ body {
 }
 .subscribe__box {
   display: flex;
-  align-items: center;
   justify-content: center;
+  align-items: center;
+  flex-wrap: nowrap;
+  flex-direction: row;
 }
 .subscribe__input {
   width: 358px;
@@ -608,8 +623,10 @@ body {
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
   padding: 10px 28px;
   display: flex;
-  align-items: center;
   justify-content: center;
+  align-items: center;
+  flex-wrap: nowrap;
+  flex-direction: row;
 }
 .subscribe__span {
   color: #FFF;
@@ -635,6 +652,8 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-wrap: nowrap;
+  flex-direction: row;
   opacity: 1;
 }
 
@@ -716,6 +735,8 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-wrap: nowrap;
+  flex-direction: row;
 }
 .modal__checkbox {
   width: 16px;
@@ -760,8 +781,10 @@ body {
   border: none;
   outline: 1px solid rgba(0, 0, 0, 0.1);
   display: flex;
-  align-items: center;
   justify-content: center;
+  align-items: center;
+  flex-wrap: nowrap;
+  flex-direction: row;
   background-color: transparent;
   position: absolute;
   right: 10px;

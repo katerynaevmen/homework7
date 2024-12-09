@@ -3,8 +3,7 @@
     padding-bottom: 25px ;
 
     &__box {
-        display: flex;
-        align-items: center;
+        @include flexbox($justify:flex-start, $wrap:nowrap);
     }
 
     &__logo { 
@@ -45,12 +44,12 @@
     font-weight: 500;
     line-height: 1.14;
     letter-spacing: 0.28px;
-    display: flex;
-    align-items: center;
+    @include flexbox($justify:flex-start, $wrap:nowrap);
     gap: 10px;
-    transition-property: color;
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    // transition-property: color;
+    // transition-duration: 250ms;
+    // transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    @include transition();
 
     &:hover,
 &:focus{
@@ -92,9 +91,10 @@
     font-weight: 500;
     line-height: 1.14;
     letter-spacing: 0.28px;
-    transition-property: color;
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    // transition-property: color;
+    // transition-duration: 250ms;
+    // transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    @include transition();
 
     &:hover,
 &:focus {

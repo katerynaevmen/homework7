@@ -5,9 +5,7 @@
     right: 0;
     bottom: 0;
     background-color: rgba(0, 0, 2, 0.5);
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    @include flexbox($wrap:nowrap);
     opacity: 1;
 }
 
@@ -98,9 +96,7 @@ outline: 1px solid #2196F3;
 }
 
 &__check {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    @include flexbox($wrap:nowrap);
 }
 
 &__checkbox {
@@ -150,9 +146,7 @@ margin-top: 30px;
     border-radius: 50%;
     border: none;
     outline: 1px solid rgba(0, 0, 0, 0.10);
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    @include flexbox($wrap:nowrap);
     background-color: transparent;
     position: absolute;
     right: 10px;
