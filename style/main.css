@@ -854,7 +854,7 @@ body {
   }
 }
 .subscribe__input {
-  width: 450px;
+  width: 100%;
   height: 50px;
   border-radius: 4px;
   border: 1px solid rgba(255, 255, 255, 0.3);
@@ -864,6 +864,11 @@ body {
   padding-left: 16px;
   padding-right: 28px;
   color: #FFF;
+}
+@media screen and (min-width: 480px) {
+  .subscribe__input {
+    width: 450px;
+  }
 }
 @media screen and (min-width: 1200px) {
   .subscribe__input {
