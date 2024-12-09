@@ -1,6 +1,16 @@
 .header {
-    padding-top: 24px ;
-    padding-bottom: 25px ;
+    padding-top: 16px ;
+    padding-bottom: 16px ;
+
+    @media screen and (min-width:768px) {
+        padding-top: 26px ;
+        padding-bottom: 26px ;
+    }
+
+    @media screen and (min-width:1200px) {
+        padding-top: 24px ;
+        padding-bottom: 25px ;
+    }
 
     &__box {
         @include flexbox($justify:flex-start, $wrap:nowrap);
@@ -9,27 +19,51 @@
     &__logo { 
         color: $logo-color;
         font-family: Raleway;
-        font-size: 26px;
+        font-size: 24px;
         font-weight: 700;
         line-height: 1.38;
-        letter-spacing: 0.78px;
+        letter-spacing: 0.72px;
         display: flex;
-        margin-right: 93px;
+        margin-right: auto;
+
+        @media  screen and (min-width:768px) {
+            margin-right: 88px;
+        }
+
+        @media screen and (min-width:1200px) {
+            font-size: 26px;
+            letter-spacing: 0.78px;
+            margin-right: 93px;
+        }
     }
 
     &__span {
         color: $header-logo;
         font-family: Raleway;
-        font-size: 26px;
+        font-size: 24px;
         font-weight: 700;
         line-height: 1.38;
-        letter-spacing: 0.78px;
+        letter-spacing: 0.72px;
+        @media screen and (min-width:1200px) {
+            font-size: 26px;
+            letter-spacing: 0.78px;
+        }
     }
 
     &__list {
-        display: flex;
-        gap: 50px;
+        display: none;
         margin-left: auto;
+
+        @media screen and (min-width:768px) {
+            flex-direction: column;
+           gap: 10px; 
+           display: flex;
+        }
+
+        @media screen and (min-width:1200px) {
+            flex-direction: row;
+            gap: 30px; 
+         }
     }
 
     &__item:hover {
@@ -40,16 +74,21 @@
 
     &__link {
         color: $aditional-color;
-    font-size: 14px;
+    font-size: 12px;
     font-weight: 500;
     line-height: 1.14;
-    letter-spacing: 0.28px;
+    letter-spacing: 0.24px;
     @include flexbox($justify:flex-start, $wrap:nowrap);
     gap: 10px;
     // transition-property: color;
     // transition-duration: 250ms;
     // transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     @include transition();
+
+    @media screen and (min-width:1200px) {
+        font-size: 14px;
+        letter-spacing: 0.28px;
+    }
 
     &:hover,
 &:focus{
@@ -77,8 +116,12 @@
 
 .nav {
     &__list {
-        display: flex;
+        display: none;
         gap: 50px;
+
+        @media screen and (min-width:768px) {
+            display: flex;
+        }
     }
 
     &__item {
