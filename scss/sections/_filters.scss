@@ -10,6 +10,7 @@
     &__list {
         @include flexbox($justify:flex-start, $align:stretch, $wrap:nowrap);
         gap: 8px;
+        row-gap: 15px;
         margin-bottom: 40px;
         flex-wrap: wrap;
 
