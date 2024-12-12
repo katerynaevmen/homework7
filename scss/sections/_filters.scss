@@ -55,6 +55,7 @@
     }
 
     &__item {
+      outline: 1px solid #EEE; 
         background: #FFF;
         flex-basis: 100%;
     @include transition($property:box-shadow, $duration:250ms, $function:cubic-bezier(0.4, 0, 0.2, 1));
@@ -77,25 +78,9 @@
     }
     }
 
-    &__img {
-        width: 100%;
-
-        @media screen and (min-width:480px) {
-            width: 450px;
-        }
-
-        @media screen and (min-width:768px) {
-            width: 354px;
-        }
-
-        @media screen and (min-width:1200px) {
-            width: 370px;
-        }
-    }
-
     &__box {
         padding: 20px 24px ;
-        border: 1px solid #EEE; 
+        // border: 1px solid #EEE; 
     }
 
     &__title {

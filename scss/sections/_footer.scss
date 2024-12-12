@@ -4,8 +4,7 @@
     background-color: $footer-background;
 
     &__box {
-        @include flexbox( $wrap:nowrap, $direction:column);
-        flex-wrap: wrap;
+        @include flexbox( $direction:column);
 
         @media screen and (min-width: 768px) {
             align-items:first baseline;
@@ -69,6 +68,10 @@
     margin-top: 20px;
     margin-bottom: 8px;
     font-style: normal;
+    }
+
+    &__item:first-child {
+        margin-bottom: 9px;
     }
 
     &__link {
