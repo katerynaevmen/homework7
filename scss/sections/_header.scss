@@ -35,6 +35,22 @@
             letter-spacing: 0.78px;
             margin-right: 93px;
         }
+
+    }
+
+    &__button {
+        border: none;
+        background-color: transparent;
+
+        @media screen and (min-width:768px) {
+            display: none;
+        }
+    }
+
+    &__burger {
+        width: 40px;
+        height: 40px;
+        fill: black;
     }
 
     &__span {
@@ -161,8 +177,121 @@
         position: absolute;
     }
 }
+// ===========================menu===============================
+ 
+.menu {
+    position:fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: $main-background;
+    box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.04), 0px 2px 4px 0px rgba(0, 0, 0, 0.08), 0px 1px 3px 0px rgba(0, 0, 0, 0.16);
+    padding: 48px 0px 48px 40px;
+
+    @media screen and (min-width:768px){
+        display: none;
+    }
+
+    &__button {
+        background-color: transparent;
+        border: none;
+        position: absolute;
+        top: 10px;
+        right: 15px;
+    }
+
+    &__close {
+        width: 40px;
+        height: 40px;
+    }
+
+    &__list {
+        margin-bottom: 302px;
+    }
+
+    &__link {
+        color: $accent-color;
+font-size: 40px;
+font-weight: 500;
+line-height: 1.175;
+letter-spacing: 0.8px;
+
+&:hover, &:focus{
+    color: $header-logo;
+}
+    }
+
+    &__item:first-child {
+        margin-bottom: 35px;
+    }
+    
+    &__item:last-child {
+        margin-top: 32px;
+    }
 
 
+    &__list-contact {
+        margin-bottom:64px;
+    }
+
+    &__item-contact:nth-child(1) {
+        color: $aditional-color;
+        font-size: 34px;
+font-weight: 500;
+line-height: 1.16;
+letter-spacing: 0.68px;
+margin-bottom: 32px;
+    }
+
+    &__item-contact:last-child {
+        color: $aditional-color;
+        font-size: 24px;
+font-weight: 500;
+line-height: 1.16;
+letter-spacing: 0.48px;
+    }
+
+    &__contact-link {
+        color: $aditional-color;
+
+        &:hover,
+        &:focus  {
+            color: $header-logo;
+        }
+    }
+
+    &__contact-link:hover,
+    &__contact-link:focus  {
+        color: $header-logo;
+    }
+
+    &__list-social {
+        display: flex;
+    }
+
+    &__item-social {
+        padding-right: 10px;
+        margin-left: 10px;
+        border-right: 1px solid #757575 ;
+    }
+
+    &__item-social:first-child {
+        margin-left: 0px;
+    }
+
+    &__item-social:last-child {
+        margin-right: 0;
+    }
+
+    &__link-social {
+        color: $header-logo;
+        font-size: 18px;
+font-weight: 500;
+line-height: 1.22; 
+letter-spacing: 0.36px;
+    }
+}
 
 
 

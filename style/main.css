@@ -94,6 +94,20 @@ body {
     margin-right: 93px;
   }
 }
+.header__button {
+  border: none;
+  background-color: transparent;
+}
+@media screen and (min-width: 768px) {
+  .header__button {
+    display: none;
+  }
+}
+.header__burger {
+  width: 40px;
+  height: 40px;
+  fill: black;
+}
 .header__span {
   color: #2196F3;
   font-family: Raleway;
@@ -203,6 +217,100 @@ body {
   border-radius: 2px;
   margin-top: 28px;
   position: absolute;
+}
+
+.menu {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: #FFF;
+  box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.04), 0px 2px 4px 0px rgba(0, 0, 0, 0.08), 0px 1px 3px 0px rgba(0, 0, 0, 0.16);
+  padding: 48px 0px 48px 40px;
+}
+@media screen and (min-width: 768px) {
+  .menu {
+    display: none;
+  }
+}
+.menu__button {
+  background-color: transparent;
+  border: none;
+  position: absolute;
+  top: 10px;
+  right: 15px;
+}
+.menu__close {
+  width: 40px;
+  height: 40px;
+}
+.menu__list {
+  margin-bottom: 302px;
+}
+.menu__link {
+  color: #212121;
+  font-size: 40px;
+  font-weight: 500;
+  line-height: 1.175;
+  letter-spacing: 0.8px;
+}
+.menu__link:hover, .menu__link:focus {
+  color: #2196F3;
+}
+.menu__item:first-child {
+  margin-bottom: 35px;
+}
+.menu__item:last-child {
+  margin-top: 32px;
+}
+.menu__list-contact {
+  margin-bottom: 64px;
+}
+.menu__item-contact:nth-child(1) {
+  color: #757575;
+  font-size: 34px;
+  font-weight: 500;
+  line-height: 1.16;
+  letter-spacing: 0.68px;
+  margin-bottom: 32px;
+}
+.menu__item-contact:last-child {
+  color: #757575;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 1.16;
+  letter-spacing: 0.48px;
+}
+.menu__contact-link {
+  color: #757575;
+}
+.menu__contact-link:hover, .menu__contact-link:focus {
+  color: #2196F3;
+}
+.menu__contact-link:hover, .menu__contact-link:focus {
+  color: #2196F3;
+}
+.menu__list-social {
+  display: flex;
+}
+.menu__item-social {
+  padding-right: 10px;
+  margin-left: 10px;
+  border-right: 1px solid #757575;
+}
+.menu__item-social:first-child {
+  margin-left: 0px;
+}
+.menu__item-social:last-child {
+  margin-right: 0;
+}
+.menu__link-social {
+  color: #2196F3;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 1.22;
+  letter-spacing: 0.36px;
 }
 
 .advantages {
