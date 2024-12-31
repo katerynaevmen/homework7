@@ -228,6 +228,7 @@ body {
   background-color: #FFF;
   box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.04), 0px 2px 4px 0px rgba(0, 0, 0, 0.08), 0px 1px 3px 0px rgba(0, 0, 0, 0.16);
   padding: 48px 0px 48px 40px;
+  z-index: 1;
 }
 @media screen and (min-width: 768px) {
   .menu {
@@ -304,6 +305,7 @@ body {
 }
 .menu__item-social:last-child {
   margin-right: 0;
+  border-right: none;
 }
 .menu__link-social {
   color: #2196F3;
