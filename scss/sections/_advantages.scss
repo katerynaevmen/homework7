@@ -2,14 +2,53 @@
     padding-top: 118px;
     padding-bottom: 118px;
     text-align: center;
-    background-image:linear-gradient( rgba(47, 48, 58, 0.40),  rgba(47, 48, 58, 0.40)), url(../img/advbackground.jpg);
+    background-image:linear-gradient( rgba(47, 48, 58, 0.40),  rgba(47, 48, 58, 0.40)), url(../img/mobile/advantages-mobile@1x.webp);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
 
+    @media (min-device-pixel-ratio: 2),
+  (-webkit-min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+    background-image:linear-gradient( rgba(47, 48, 58, 0.40),  rgba(47, 48, 58, 0.40)), url(../img/mobile/advantages-mobile@2x.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+
+  @media screen and (min-width:768px) {
+    background-image:linear-gradient( rgba(47, 48, 58, 0.40),  rgba(47, 48, 58, 0.40)), url(../img/tablet/advantages-tablet@1x.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    @media (min-device-pixel-ratio: 2),
+  (-webkit-min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+    background-image:linear-gradient( rgba(47, 48, 58, 0.40),  rgba(47, 48, 58, 0.40)), url(../img/tablet/advantages-tablet@2x.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+  }
+
     @media screen and (min-width:1200px) {
         padding-top: 200px;
         padding-bottom: 200px;
+        background-image:linear-gradient( rgba(47, 48, 58, 0.40),  rgba(47, 48, 58, 0.40)), url(../img/desktop/advantages-desktop@1x.webp);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        @media (min-device-pixel-ratio: 2),
+      (-webkit-min-device-pixel-ratio: 2),
+      (min-resolution: 192dpi),
+      (min-resolution: 2dppx) {
+        background-image:linear-gradient( rgba(47, 48, 58, 0.40),  rgba(47, 48, 58, 0.40)), url(../img/desktop/advantages-desktop@2x.webp);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+      }
     }
 
     &__title {
