@@ -50,6 +50,12 @@
         @media screen and (min-width: 1200px) {
          flex-basis: calc((100% - 150px) / 6);
         }
+
+        animation-name: svgtwist;
+        animation-duration: 5s;
+        animation-timing-function: cubic-bezier(0.95, 0.05, 0.795, 0.035);
+        animation-iteration-count: infinite;
+        animation-delay: 3s;
     }
 
     &__item:hover {
@@ -95,5 +101,27 @@
         width: 106px;
         height: 60px;
     fill: #AFB1B8;
+    }
+}
+
+@keyframes svgtwist {
+    0% {
+        transform: translateX(-1000px);
+    }
+
+    25% {
+        transform: translateX(1000px);
+    }
+
+    50% {
+        transform: rotate(180deg);
+    }
+
+    75% {
+        transform: rotate(360deg);
+    }
+
+    100% {
+        transform: translateX(0);
     }
 }
